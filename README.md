@@ -51,6 +51,16 @@ Register listeners for **specific events**:
  RxBus.singleton.post(ChangeTitleEvent("Changed by event"));
 ```
 
+### 4. Dispose
+
+```dart
+  @override
+  void dispose() {
+    RxBus.destroy();
+    super.dispose();
+  }
+```
+
 ## License
 
 The MIT License (MIT)
