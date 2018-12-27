@@ -51,7 +51,7 @@ Register listeners for **specific events**:
  RxBus.singleton.post(ChangeTitleEvent("Changed by event"));
 ```
 
-### 4. Dispose
+### 5. Dispose RxBus
 
 ```dart
   @override
