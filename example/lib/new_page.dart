@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:rxbus/rx_bus.dart';
-import 'package:rxbus_example/event/chang_title.dart';
+import 'package:rxbus_example/chang_title.dart';
 
 class NewPage extends StatefulWidget {
   @override
