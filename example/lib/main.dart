@@ -1,7 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:rxbus/rx_bus.dart';
-import 'package:rxbus_example/chang_title.dart';
+import 'package:rxbus/rxbus.dart';
 import 'package:rxbus_example/new_page.dart';
 
 void main() => runApp(MyApp());
@@ -91,4 +90,10 @@ class _MyAppState extends State<MyApp> {
       ),
     );
   }
+}
+
+class ChangeTitleEvent {
+  String title;
+
+  ChangeTitleEvent(this.title);
 }
