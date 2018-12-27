@@ -1,6 +1,6 @@
 # FlutterRxBus
 
-A Flutter EventBus using [RxDart] (https://pub.dartlang.org/packages/rxdart)
+A Flutter EventBus using [RxDart](https://pub.dartlang.org/packages/rxdart)
 
 
 [![Pub Package](https://img.shields.io/badge/RxBus-0.0.1-blue.svg)](https://pub.dartlang.org/packages/event_bus)
