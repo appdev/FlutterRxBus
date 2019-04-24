@@ -3,8 +3,8 @@
 A Flutter EventBus using [RxDart](https://pub.dartlang.org/packages/rxdart)
 
 
-[![Pub Package](https://img.shields.io/badge/RxBus-0.0.1-blue.svg)](https://pub.dartlang.org/packages/event_bus)
-[![Pub Package](https://img.shields.io/github/license/huclengyue/FlutterRxBus.svg)](https://pub.dartlang.org/packages/event_bus)
+[![Pub Package](https://img.shields.io/badge/RxBus-0.0.2-blue.svg)](https://pub.dartlang.org/packages/event_bus)
+[![Pub Package](https://img.shields.io/github/license/appdev/FlutterRxBus.svg)](https://pub.dartlang.org/packages/event_bus)
 
 [GitHub](https://github.com/huclengyue/FlutterRxBus) |
 [Pub](https://pub.dartlang.org/packages/event_bus) |

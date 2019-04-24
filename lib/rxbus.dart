@@ -78,14 +78,18 @@ class RxBus {
 
   ///事件关闭
   static void destroy({tag}) {
+    var toRemove = [];
     _list.forEach((rxBus) {
       if (tag != null && tag != _DEFAULT_IDENTIFIER && rxBus.tag == tag) {
         rxBus.subject.close();
-        _list.remove(rxBus);
+        toRemove.add(rxBus);
       } else if ((tag == null || tag == _DEFAULT_IDENTIFIER) && rxBus.tag == _DEFAULT_IDENTIFIER) {
         rxBus.subject.close();
-        _list.remove(rxBus);
+        toRemove.add(rxBus);
       }
+    });
+    toRemove.forEach((rxBus) {
+      _list.remove(rxBus);
     });
   }
 }

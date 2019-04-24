@@ -1,8 +1,8 @@
 name: rxbus
 description: A Flutter EventBus using RxDart
-version: 0.0.1
-author: huclengyue <lengyue@apkdv.com>
-homepage: https://github.com/huclengyue/FlutterRxBus
+version: 0.0.2
+author: appdev <lengyue@apkdv.com>
+homepage: https://github.com/appdev/FlutterRxBus
 
 environment:
   sdk: ">=2.0.0-dev.68.0 <3.0.0"
