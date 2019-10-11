@@ -1,6 +1,6 @@
 name: rxbus
 description: A Flutter EventBus using RxDart
-version: 0.0.2
+version: 0.0.3
 author: appdev <lengyue@apkdv.com>
 homepage: https://github.com/appdev/FlutterRxBus
 
@@ -10,7 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  rxdart: ^0.20.0
+  rxdart: ^0.22.3
 # For information on the generic Dart part of this file, see the
 # following page: https://www.dartlang.org/tools/pub/pubspec
 
